@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uz">
+    <head>
+        <title>CSS templates</title>
+        <link rel="icon" href="images/logo.jpg">
+        <style>
+
+        * {
+        box-sizing: border-box;
+        }
+        
+        /* Shrift turi */
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*  Header uchun sozlamalar*/
+        header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        }
+
+        /* nav uchun sozlamalar */
+        nav {
+        float: left;
+        width: 30%;
+        height: 300px; 
+        background: #ccc;
+        padding: 20px;
+        }
+
+        /* Nav bar menu atributlari uchun css */
+        nav ul {
+        list-style-type: none;
+        padding: 0;
+        }
+
+        article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f100;
+        height: 300px; 
+        }
+
+
+        section::after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+
+        footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        }
+
+
+        @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+        }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h2>Fargona</h2>
+        </header>
+
+        <section>
+        <nav>
+            <ul>
+                <li><a href="xomin.html">Zomin</a></li>
+                <br>
+                <li><a href="#">Toshkent</a></li>
+                <br>
+                <li><a href="#">Andijon</a></li>
+                <br>
+                <li><a href="#">Guliston</a></li>
+                <br>
+                <li><a href="#">Farg'ona</a></li>
+                <br>
+                <li><a href="#">Namangan</a></li>
+            </ul>
+        </nav>
+        
+        <article>
+            <h1>Fargona</h1>
+            <p>Bu yerda siz O'zbekiston respublikasining quyidagi viloyat hamda tumanlari haqida malumopt olishingiz mumkin.</p>
+        </article>
+        </section>
+
+        <footer>
+            <p>Ishlab chiquvchi ITW gurux IT Park</p>
+        </footer>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
