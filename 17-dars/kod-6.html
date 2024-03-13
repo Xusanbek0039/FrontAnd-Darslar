@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Sekund: <output id="result"></output></p>
+<button onclick="startWorker()">Boshlash</button> 
+<button onclick="stopWorker()">To'xtatish</button>
+
+<p><strong>Ishchi:</strong> Y'ani Fonda faqat JavScript ishlamoqda </p>
+
+<script>
+var w;
+
+function startWorker() {
+  if(typeof(Worker) !== "undefined") {
+    if(typeof(w) == "undefined") {
+      w = new Worker("demo_workers.js");
+    }
+    w.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Nidur xato bajarildi.";
+  }
+}
+
+function stopWorker() { 
+  w.terminate();
+  w = undefined;
+}
+</script>
+
+</body>
+</html>
+
+
