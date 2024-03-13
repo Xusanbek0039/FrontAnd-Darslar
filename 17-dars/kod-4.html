@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geolokatsiya ma'lumotlari</title>
+</head>
+<body>
+
+<button onclick="getLocation()">Location olish</button>
+<p id="location">Geolokatsiya ma'lumotlarini kuting...</p>
+
+<script>
+// Geolokatsiya ma'lumotlarini olish
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    document.getElementById("location").innerHTML = "Geolokatsiya ma'lumotlari mavjud emas.";
+  }
+}
+
+// Geolokatsiya ma'lumotlarini ko'rsatish
+function showPosition(position) {
+  var latitude = position.coords.latitude;
+  var longitude = position.coords.longitude;
+  document.getElementById("location").innerHTML = "Sizning joylashuvingiz: <br>Kenglik: " + latitude + "<br>Uzunlik: " + longitude;
+}
+</script>
+
+</body>
+</html>
