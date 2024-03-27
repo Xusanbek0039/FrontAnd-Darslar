@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3; 
+  background: lightgray;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2; 
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+
+<h1>Z-index misollar</h1>
+
+<p> z-index asosan bir oynada bir nechta element ishlatish uchun qo'llaniladi<p>
+
+<div class="container">
+  <div class="black-box"> (z-index: 1)</div>
+  <div class="gray-box"> (z-index: 3)</div>
+  <div class="green-box"> (z-index: 2)</div>
+</div>
+
+</body>
+</html>
+
+
