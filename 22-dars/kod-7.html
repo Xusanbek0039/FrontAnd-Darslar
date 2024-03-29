@@ -10,18 +10,19 @@
   position: relative;
   z-index: 1;
   border: 2px solid black;
-  height: 100px;
+  height: 500px;
+  width: 1000px;
   margin: 30px;
 }
 
 .gray-box {
   position: absolute;
-  z-index: 3; 
+  z-index: 3;
   background: lightgray;
   height: 60px;  
   width: 70%;
   left: 50px;
-  top: 50px;
+  top: 250px;
 }
 
 .green-box {
@@ -30,7 +31,7 @@
   background: lightgreen;
   width: 35%;
   left: 270px;
-  top: -15px;
+  top: 15px;
   height: 100px;
 }
 </style>
@@ -43,8 +44,8 @@
 
 <div class="container">
   <div class="black-box"> (z-index: 1)</div>
-  <div class="gray-box"> (z-index: 3)</div>
-  <div class="green-box"> (z-index: 2)</div>
+  <div class="gray-box"><input type="-local"></div>
+  <div class="green-box"><input type="username"></div>
 </div>
 
 </body>
