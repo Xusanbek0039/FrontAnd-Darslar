@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog sarlavhasi */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Yuqori navigatsiya paneliga uslub berilgan */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Yuqori markaz havolalariga uslub bering */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Hoverda rangni o'zgartiring */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Bir-birining yonida suzuvchi ikkita teng bo'lmagan ustunlar yaratilingan */
+/* Chap ustun*/
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* O'ng ustun */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Soxta rasm */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Maqolalar uchun karta effektini qo'shilgan */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Ustunlardan keyin toza suzuvchilar */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Ta'sirchan tartib - ekran kengligi 800px dan kam bo'lsa, ikkita ustunni yonma-yon emas, balki bir-birining ustiga qo'ying. */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Ta'sirchan tartib - ekran kengligi 400px dan kam bo'lsa, navigatsiya havolalarini bir-birining yonida emas, balki bir-birining ustiga qo'ying. */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Mening Web saytim</h1>
+  <p>Ushbu sayt tajriba oshirish uchun yasalgan.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>HEADING sarlavhasi</h2>
+      <h5>Bugungi vaqt 20.8.2023</h5>
+      <div class="fakeimg" style="height:200px;">Rasm</div>
+      <p>Matn yopziladi</p>
+      <p>Ushbu qismda yuqoridagi rasm haqida qisqacha matn yoziladi.</p>
+    </div>
+    <div class="card">
+      <h2>HEADING sarlavhasi</h2>
+      <h5>Bugungi vaqt 20.8.2023</h5>
+      <div class="fakeimg" style="height:200px;">Rasm</div>
+      <p>Matn yoziladi</p>
+      <p>Ushbu qismda yuqoridagi rasm haqida qisqacha matn yoziladi.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Biz haqimizda</h2>
+      <div class="fakeimg" style="height:100px;">Rasm</div>
+      <p>Kampaniya haqida qisqacha matn yoziladigan qism..</p>
+    </div>
+    <div class="card">
+      <h3>Galareya</h3>
+      <div class="fakeimg"><p>Rasm</p></div>
+      <div class="fakeimg"><p>Rasm</p></div>
+      <div class="fakeimg"><p>Rasm</p></div>
+    </div>
+    <div class="card">
+      <h3>Ishlab chiquvchi</h3>
+      <p>Sayt ishlab chiquvchisi haqida xabar</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+
