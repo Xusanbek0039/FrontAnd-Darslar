@@ -2,7 +2,6 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
-    text-align: center;
   }
   
   td, th {
@@ -10,8 +9,3 @@ table {
     text-align: center;
     padding: 20px;
   }
-  
-  tr:nth-child(even) {
-    background-color: rgb(255, 252, 252);
-  }
-  
