@@ -20,6 +20,10 @@ const values = [
   'f',
 ]
 
+
+
+
+
 // random color function
 function getGradient() {
   let color = '#'
