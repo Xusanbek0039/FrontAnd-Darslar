@@ -73,9 +73,18 @@ input {
   font-family: inherit;
 }
 
+
+
+
+
+
+
 input:focus {
   outline: none;
 }
+
+
+
 
 button {
   font-size: 20px;
@@ -89,9 +98,17 @@ button {
   transition: background 0.3s;
 }
 
+
+
+
+
 button:hover {
   background: rgb(21, 21, 217);
 }
+
+
+
+
 
 .message {
   background: #fff;
