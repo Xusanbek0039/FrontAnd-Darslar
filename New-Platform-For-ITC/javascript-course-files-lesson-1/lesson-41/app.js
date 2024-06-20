@@ -29,3 +29,7 @@ const area = 7.9
 // Math.random()
 const randomNumber = Math.trunc(Math.random() * 10) + 1
 console.log(randomNumber)
+
+
+
+
