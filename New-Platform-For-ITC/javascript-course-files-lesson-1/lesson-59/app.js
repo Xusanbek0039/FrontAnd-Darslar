@@ -35,6 +35,11 @@ function getGradient() {
   return color
 }
 
+
+
+
+
+
 // set color to body
 function setGradient() {
   const color1 = getGradient()
