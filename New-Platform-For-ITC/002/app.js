@@ -81,26 +81,12 @@
 
 
 
-// let myString = '   Salom, dunyo!   ';
+var string1 = '   Salom, dunyo!   ';
 // let tozalanganString = myString.trim(); // 'Salom, dunyo!'
-// console.log(tozalanganString);
+// console.log(tozalanganString)
+console.log(string1); // false
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let string1 = 'Salom';
-// let string2 = 'salom';
-// console.log(string1 == string2); // false
-// console.log(string1 === string2); // false
+var string1 = 'Salom';
+let string2 = 'Salom';
+console.log(string1 == string2); // false
+console.log(string1 === string2); // false
