@@ -31,3 +31,6 @@
 
 
 
+let myString = 'Salom, dunyo!';
+let array = myString.split(', '); // ['Salom', 'dunyo!']
+console.log(array);
