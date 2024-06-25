@@ -31,6 +31,76 @@
 
 
 
-let myString = 'Salom, dunyo!';
-let array = myString.split(', '); // ['Salom', 'dunyo!']
-console.log(array);
+// let myString = 'Salom, dunyo!';
+// let array = myString.split(', '); // ['Salom', 'dunyo!']
+// console.log(array);
+
+
+
+
+
+
+
+
+
+
+
+
+// let myString = 'Salom, dunyo!';
+// let yangiString = myString.replace('dunyo', 'Oʻzbekiston');
+// console.log(yangiString); // Salom, Oʻzbekiston!
+
+
+
+
+
+
+
+
+
+
+
+
+// let myString = 'Salom, dunyo!';
+// let indeks1 = myString.indexOf('dunyo'); // 7
+// let indeks2 = myString.lastIndexOf('o'); // 10
+// let mavjud = myString.includes('dunyo'); // true
+// let indeks3 = myString.search('dunyo'); // 7
+// console.log(indeks1, indeks2, mavjud, indeks3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let myString = '   Salom, dunyo!   ';
+// let tozalanganString = myString.trim(); // 'Salom, dunyo!'
+// console.log(tozalanganString);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let string1 = 'Salom';
+// let string2 = 'salom';
+// console.log(string1 == string2); // false
+// console.log(string1 === string2); // false
