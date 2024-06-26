@@ -3,7 +3,7 @@ body{
 }
 p{
     font-size: 50px;
-    border: 1px ;
+    border: 1px solid black;
 }
 img{
     width: 250px;
