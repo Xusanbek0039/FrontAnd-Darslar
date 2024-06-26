@@ -1,4 +1,5 @@
-let a = 5;
-let b = 1.1;
-let c = a - b
-console.log(c)
+// let a = 2;
+// let c = 2;
+
+let b = Math.ceil(5.6)
+console.log(b)
