@@ -1,11 +1,9 @@
-body{
-    background-color: aquamarine;
+
+#myid2{
+    width: 100%;
+    height: 100%;
 }
-p{
-    font-size: 50px;
-    border: 1px solid black;
-}
-img{
+#myid1{
     width: 250px;
     height: 250px;
 }
