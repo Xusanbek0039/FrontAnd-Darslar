@@ -8,9 +8,7 @@ let result = birinchiHarf + davomi
 
 alert(`Salom, ${result}`)
 
-// charAt()
+// charAt() 
 // slice()
 // toUpperCase()
-// toLowerCase()
-
-// Ahror
+/  / toLowerCase()
