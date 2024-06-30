@@ -1,16 +1,21 @@
 header{
     background-color: rgb(0, 60, 255);
     height: 100px;
+
+}
+nav{
+    margin-top: 1px;
+    background-color: rgb(0, 255, 42);
+    height: 100px;
+
+}
+.myclass{
     font-size: 20px;
     text-align: center;
     color: white;
     line-height: 100px;
 }
-nav{
-    background-color: rgb(0, 255, 42);
-    height: 100px;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    line-height: 100px;
+section{
+    background-color: brown;
+    height: 500px;
 }
