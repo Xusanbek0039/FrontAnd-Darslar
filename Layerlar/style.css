@@ -16,6 +16,7 @@ nav{
     line-height: 100px;
 }
 section{
-    background-color: brown;
+    background-color: rgb(243, 20, 20);
     height: 500px;
+    width: 70%;
 }
