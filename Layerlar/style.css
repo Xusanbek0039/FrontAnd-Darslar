@@ -29,3 +29,11 @@ aside{
     line-height: 500px;
     float: left;
 }
+footer{
+    height: 100px;
+    line-height: 100px ;
+    float: left;
+    width: 100%;
+    background-color: rgb(70, 39, 39);
+
+}
