@@ -12,9 +12,11 @@ nav{
     font-size: 20px;
     text-align: center;
     color: white;
-    line-height: 100px;
     margin-top: 1px;
 
+}
+.imgclass{
+    width: 250px;
 }
 section{
     background-color: rgb(243, 20, 20);
