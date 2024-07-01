@@ -1,18 +1,19 @@
 header{
     background-color: rgb(0, 60, 255);
     height: 100px;
-
+    line-height: 100px;
 }
 nav{
-    background-color: rgb(0, 255, 42);
+    background-color: rgb(0, 0, 0);
     height: 100px;
+    line-height: 100px;
 
 }
 .myclass{
     font-size: 20px;
     text-align: center;
     color: white;
-    margin-top: 1px;
+    margin-top: 10px;
 
 }
 .imgclass{
