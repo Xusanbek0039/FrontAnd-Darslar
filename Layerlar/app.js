@@ -9,7 +9,3 @@ if (baho >= 90) {
 } else {
     console.log("Qoniqarsiz");
 }
-
-
-
-
