@@ -28,6 +28,9 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
+.active {
+        background-color: #4CAF50;
+    }
 li.dropdown {
   display: inline-block;
 }
@@ -59,14 +62,14 @@ li.dropdown {
 <body>
 
 <ul>
-  <li><a href="#home">Home</a></li>
+  <li class="active"><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Dropdown menu</a>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="https://kun.uz/news/category/uzbekiston">O'zbekiston yangiliklari</a>
+      <a href="https://kun.uz/news/category/jahon">Jahon yangiliklari</a>
+
     </div>
   </li>
 </ul>
